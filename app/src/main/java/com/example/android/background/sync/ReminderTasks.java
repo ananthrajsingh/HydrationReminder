@@ -6,7 +6,7 @@ import com.example.android.background.utilities.PreferenceUtilities;
 
 // TODO (1) Create a class called ReminderTasks
 public class ReminderTasks{
-    public static String ACTION_INCREMENT_WATER_COUNT;
+    public static String ACTION_INCREMENT_WATER_COUNT = "increment-water-count";
     private static void incrementWaterCount(Context context){
         PreferenceUtilities.incrementWaterCount(context);
     }
